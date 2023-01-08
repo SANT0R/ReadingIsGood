@@ -1,5 +1,6 @@
 package com.msantor.bookshop.model.base;
 
+import com.msantor.bookshop.config.security.ApiUserRole;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -31,5 +32,8 @@ public abstract class UserModel  extends BaseModel implements Serializable {
     @Column(nullable = false)
     private String eMail;
 
+
+    @Column(nullable = false)
+    private ApiUserRole role;
 
 }
