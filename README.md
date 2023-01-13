@@ -9,12 +9,12 @@ An online books retail webapp.
 
 ## Tech Stack
 
-Java11, SpringBoot, Maven, Jpa, Hibernate, H2, Spring Security, Swagger, Intellij IDE
+Java11, SpringBoot, Maven, Jpa, Hibernate, H2, Spring Security, Swagger, Intellij IDEA
 
 ## Installation
 
 - First of all, you need to download the project on github to the machine we want to install.
-- Then open the project in the IDE (Intellij, Eclipse etc.). - Intellij is recommended as it is the IDE it was built on.
+- Then open the project in the IDEA (Intellij, Eclipse etc.). - Intellij is recommended as it is the IDEA it was built on.
 - Clean-Install steps should be run with the Maven plugin so that the necessary jars can be downloaded. 
 - If the error "Internal error in the mapping processor: java.lang.NullPointerException" is encountered in this step:
 You can add `-Djps.track.ap.dependencies=false` at File | Settings (Preferences on macOS) | Build, Execution, Deployment | Compiler | Build process VM options as a workaround.
